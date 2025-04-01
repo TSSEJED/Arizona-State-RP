@@ -1,0 +1,19 @@
+body {
+    background: url('mobile.css') no-repeat center center fixed;
+    background-size: cover;
+}
+
+/* Hide video background on mobile */
+.video-container {
+    display: none;
+}
+
+.app-box {
+    background-color: #111;
+    padding: 30px;
+    border: 2px solid #FFD700;
+    border-radius: 10px;
+    text-align: center;
+    width: 300px;
+    transition: 0.3s;
+}
