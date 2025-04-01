@@ -25,3 +25,12 @@ iframe {
     border: none;
     border-radius: 5px;
 }
+html {
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    scroll-snap-type: y mandatory;
+    scrollbar-color: #FFD700 #000;
+    scrollbar-width: thin;
+    scrollbar-3dlight-color: #000;
+}
